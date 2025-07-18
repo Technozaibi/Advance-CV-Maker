@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+/* global html2canvas, jspdf */
 // Define some basic CV templates for demonstration
 const templates = {
   modern: {
