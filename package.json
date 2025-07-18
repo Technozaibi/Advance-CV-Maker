@@ -2,6 +2,18 @@
   "name": "cv-maker-app",
   "version": "0.1.0",
   "private": true,
+  "description": "An advanced CV (Resume) creator application built with React.",
+  "keywords": [
+    "cv",
+    "resume",
+    "maker",
+    "builder",
+    "react",
+    "web-app",
+    "frontend"
+  ],
+  "author": "Your Name or Organization",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
