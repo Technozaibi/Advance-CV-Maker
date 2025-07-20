@@ -9,6 +9,11 @@ import ProfessionalTemplate from './templates/ProfessionalTemplate';
 import CreativeTemplate from './templates/CreativeTemplate';
 import SidebarTemplate from './templates/SidebarTemplate';
 import MinimalistTemplate from './templates/MinimalistTemplate';
+import InfographicTemplate from './templates/InfographicTemplate';
+import AcademicTemplate from './templates/AcademicTemplate';
+import DeveloperTemplate from './templates/DeveloperTemplate';
+import StructuredTemplate from './templates/StructuredTemplate';
+import VibrantTemplate from './templates/VibrantTemplate';
 
 // Define your CV templates using the imported components
 const templates = {
@@ -35,6 +40,26 @@ const templates = {
   minimalist: {
     name: 'Minimalist',
     render: (data) => <MinimalistTemplate data={data} />,
+  },
+  infographic: { 
+    name: 'Infographic',
+    render: (data) => <InfographicTemplate data={data} />,
+  },
+  academic: { 
+    name: 'Academic',
+    render: (data) => <AcademicTemplate data={data} />,
+  },
+  developer: { 
+    name: 'Developer',
+    render: (data) => <DeveloperTemplate data={data} />,
+  },
+  structured: { 
+    name: 'Structured',
+    render: (data) => <StructuredTemplate data={data} />,
+  },
+  vibrant: { 
+    name: 'Vibrant',
+    render: (data) => <VibrantTemplate data={data} />,
   },
 };
 
