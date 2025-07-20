@@ -8,6 +8,7 @@ import ClassicTemplate from './templates/ClassicTemplate';
 import ProfessionalTemplate from './templates/ProfessionalTemplate';
 import CreativeTemplate from './templates/CreativeTemplate';
 import SidebarTemplate from './templates/SidebarTemplate';
+import MinimalistTemplate from './templates/MinimalistTemplate';
 
 // Define your CV templates using the imported components
 const templates = {
@@ -30,6 +31,10 @@ const templates = {
   sidebar: {
     name: 'Sidebar',
     render: (data) => <SidebarTemplate data={data} />,
+  },
+  minimalist: {
+    name: 'Minimalist',
+    render: (data) => <MinimalistTemplate data={data} />,
   },
 };
 
